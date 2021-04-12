@@ -7,18 +7,22 @@ var multiplo5 = i % 5 === 0;
 
 
 
-// per ogni numero multiplo di 3 che il ciclo trova devo scrivere "Fizz"
+
 
 for(var i = 0; i <= 100; i++){
-    
-    if (i % 3 === 0){
-        console.log("Fizz")
-    }else if ( i % 5 === 0){
-        console.log("Buzz")
-}   else if ( i % 5 === 0 ||  i % 5 === 0){
-    console.log("FizzBuzz")
-}  else {
 
+    // per ogni numero multiplo di 3 e di 5 che il ciclo trova devo scrivere "FizzBuzz"
+    if ( (i % 3 === 0) && (i % 5 === 0)){
+    console.log("FizzBuzz")
+    // per ogni numero multiplo di 3 che il ciclo trova devo scrivere "Fizz"
+    }if (i % 3 === 0){
+    console.log("Fizz")
+    }
+    // per ogni numero multiplo di 5 che il ciclo trova devo scrivere "Buzz"
+    else if ( i % 5 === 0){
+    console.log("Buzz")
+    }else {
     console.log(i)
     }
 }
+
