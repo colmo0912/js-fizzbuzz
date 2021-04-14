@@ -15,7 +15,7 @@ for(var i = 0; i <= 100; i++){
     if ( (i % 3 === 0) && (i % 5 === 0)){
     console.log("FizzBuzz")
     // per ogni numero multiplo di 3 che il ciclo trova devo scrivere "Fizz"
-    }if (i % 3 === 0){
+    }else if (i % 3 === 0){
     console.log("Fizz")
     }
     // per ogni numero multiplo di 5 che il ciclo trova devo scrivere "Buzz"
